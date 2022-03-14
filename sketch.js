@@ -23,12 +23,12 @@ function preload(){
   
   cloudImage = loadImage("Nubes.png");
   
-  obstacle1 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle2 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle3 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle4 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle5 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle6 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
+  obstacle1 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle2 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle3 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle4 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle5 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle6 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
   
   gameOverImg = loadImage("mario-over2.png");
   restartImg = loadImage("SpaceJam2.png");
@@ -156,18 +156,18 @@ function spawnObstacles() {
         //genera obstáculos al azar
     var rand = Math.round(random(1,6));
     switch(rand) {
-      case 1: obstacle.changeAnimation(obstacle1);
+      case 1: obstacle.changeAnimation(obstacle2);
               break;
-      case 2: obstacle.changeAnimation(obstacle2);
+      case 2: obstacle.changeAnimation(obstacle3);
               break;
-      case 3: obstacle.changeAnimation(obstacle3);
+      case 3: obstacle.changeAnimation(obstacle4);
               break;
-      case 4: obstacle.changeAnimation(obstacle4);
+      case 4: obstacle.changeAnimation(obstacle5);
               break;
-      case 5: obstacle.changeAnimation(obstacle5);
+      case 5: obstacle.changeAnimation(obstacle6);
               break;
-      case 6: obstacle.changeAnimation(obstacle6);
-              break;
+     // case 6: obstacle.changeAnimation(obstacle6);
+      //        break;
       default: break;
     }
     
