@@ -23,12 +23,12 @@ function preload(){
   
   cloudImage = loadImage("Nubes.png");
   
-  obstacle1 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
-  obstacle2 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
-  obstacle3 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
-  obstacle4 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
-  obstacle5 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
-  obstacle6 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle1 = loadAnimation("obstacleR","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle2 = loadAnimation("obstacleR1","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle3 = loadAnimation("obstacleR2","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle4 = loadAnimation("obstacleR3","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle5 = loadAnimation("obstacleR4","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
+  obstacle6 = loadAnimation("obstacleR5","Planta.png","Planta2.png","Planta21.png","Planta3.png","planta4.png");
   
   gameOverImg = loadImage("mario-over2.png");
   restartImg = loadImage("SpaceJam2.png");
