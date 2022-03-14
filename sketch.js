@@ -23,12 +23,12 @@ function preload(){
   
   cloudImage = loadImage("Nubes.png");
   
-  obstacle1 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle2 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle3 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle4 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle5 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
-  obstacle6 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png","Planta4.png");
+  obstacle1 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
+  obstacle2 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
+  obstacle3 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
+  obstacle4 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
+  obstacle5 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
+  obstacle6 = loadAnimation("Planta.png","Planta2.png","Planta21.png","Planta3.png");
   
   gameOverImg = loadImage("mario-over2.png");
   restartImg = loadImage("SpaceJam2.png");
